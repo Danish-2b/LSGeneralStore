@@ -1,0 +1,93 @@
+.navbar{
+    background-color:#4DD0E1 !important;
+}
+.nav-link{
+    color: #0D5E6D !important;
+     font-weight: bold;
+}
+.listt{
+    color:  #0D5E6D ;
+    background-color: #B3E5FC;
+}
+.fa-user, .fa-shopping-cart, .fa-facebook-official, .fa-whatsapp, .fa-instagram, .fa-envelope{
+    font-size: 25px !important;
+    margin-left: 10%;
+    align-items: center !important;
+}
+
+.fa-gift, .fa-check-circle, .fa-percent{
+    font-size: 50px !important;
+    margin-right: 15px;
+}
+.discs{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 8px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.disc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h3{
+    color: #0D5E6D;
+}
+.card{
+    margin-top: 30px !important;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 5px grey;
+    margin-bottom: 30px !important;
+}
+.btn-light{
+    background-color: #4DD0E1 ;
+}
+.foot-str{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #0D5E6D;
+    font-weight: bold;
+}
+
+.nav-item a:hover, .active{
+    background-color: #40FFF6;
+    color: white;
+    border-radius:15px;
+}
+
+
+
+
+
+
+.footer{
+    background-color: rgb(85, 180, 192) !important;
+}
+p{
+    color: #0d5e6d;
+    font-size: 17px;  
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 816px){
+    .discs{
+        width: 100%;
+    }
+    .fa-facebook-official, .fa-whatsapp, .fa-instagram, .fa-envelope{
+        width: 30%;
+    }
+    #logo{
+        width: 40%;
+    }
+}
+
